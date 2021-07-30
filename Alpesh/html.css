@@ -55,17 +55,16 @@ footer{
 }
 
 button{
-  font-style: oblique;
+  font-style: normal;
   font-weight: bolder;
   font-size:15px;
 }
 
 .navbar {
   height: 40px;
-  margin:0px 5px;
   overflow: hidden;
   font-weight: bolder;
-  background-color:white;
+  background-color:#cc9778;
 }
 .navbar a {
   float: left;
