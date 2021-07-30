@@ -4,26 +4,26 @@
     margin-left: 50px;
     height: 400px;
 }
-html{
+{
       -webkit-text-size-adjust: 100%;
 }
 body{
-  background-image:url(ld/Picture1.png);
+  background-color:white;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Comic Sans MS",cursive;
+  font-family: serif;
   position: relative;
   text-align: center;
 }
-#logo1
-  {
-    font-family: Audiowide, sans-serif;
-    padding-top: 10px;
-  }
-header{
-  border:none;
-  border-radius: 30px;
+#logo{
+  margin: 5px;
+  padding-right: 10px;
 }
+#logo1{
+  line-height: 0.3;
+  padding-right: 10px;
+}
+
 footer{
   margin-top: 10px;
   position: fixed;
@@ -62,12 +62,10 @@ button{
 
 .navbar {
   height: 40px;
-  margin:0px 10px;
+  margin:0px 5px;
   overflow: hidden;
   font-weight: bolder;
   background-color:white;
-  border-bottom:none;
-  border-radius: 30px;
 }
 .navbar a {
   float: left;
@@ -173,28 +171,8 @@ button{
   margin-top: 5px;
   margin-bottom: 5px;
 }
-/*.social-footer {
-  padding: 10px;
-  background: white;
-  ba
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}*/
-
-#submit_b{
-  border: outset;
-  background-color: whitesmoke;
-  padding: 8px;
-  font-size: large;
-  color: black;
-  border-radius: 30px;
+.submit{
+  background-color: skyblue;
 }
 #mySidenav a {
   position: fixed;
