@@ -1,70 +1,68 @@
-.myslide{
-    width: 100%;
-    cursor: pointer;
-    margin-left: 50px;
-    height: 400px;
+.myslide {
+  width: 100%;
+  cursor: pointer;
+  margin-left: 50px;
+  height: 400px;
 }
-{
-      -webkit-text-size-adjust: 100%;
-}
-body{
-  background-color:white;
+
+body {
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: serif;
   position: relative;
   text-align: center;
 }
-#logo{
+#logo {
   margin: 5px;
   padding-right: 10px;
 }
-#logo1{
+#logo1 {
   line-height: 0.3;
   padding-right: 10px;
 }
 
-footer{
+footer {
   margin-top: 10px;
   position: fixed;
   padding-right: 50px;
-  bottom : 0px;
-  left:5px;
+  bottom: 0px;
+  left: 5px;
   right: 5px;
   font-size: x-small;
-  border:none;
+  border: none;
   background-color: whitesmoke;
   border-radius: 30px;
   text-align: right;
 }
-#fd{
-  font-size:25px;
+#fd {
+  font-size: 25px;
   padding: 10px 10px 10px 450px;
-  direction : ltr;
+  direction: ltr;
   font-weight: bolder;
 }
 
-.menu{
-  font-style:oblique;
-  font-size:15px;
-  padding:10px;
+.menu {
+  font-style: oblique;
+  font-size: 15px;
+  padding: 10px;
 }
-.menu:hover{
-  border-spacing:30px;
-  border-color:#16572f;
+.menu:hover {
+  border-spacing: 30px;
+  border-color: #16572f;
 }
 
-button{
+button {
   font-style: normal;
   font-weight: bolder;
-  font-size:15px;
+  font-size: 15px;
 }
 
 .navbar {
   height: 41px;
   overflow: hidden;
   font-weight: bolder;
-  background-color:#cc9778;
+  background-color: #cc9778;
 }
 .navbar a {
   float: left;
@@ -79,7 +77,7 @@ button{
   overflow: hidden;
 }
 .dropdown .dropbtn {
-  font-size: 15px;  
+  font-size: 15px;
   border: none;
   outline: none;
   color: black;
@@ -88,9 +86,10 @@ button{
   font-family: inherit;
   margin: 0;
 }
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color:whitesmoke;
-  border-style:solid none solid none;
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: whitesmoke;
+  border-style: solid none solid none;
   font-size: 17px;
   color: black;
 }
@@ -99,7 +98,7 @@ button{
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 .dropdown-content a {
@@ -117,11 +116,13 @@ button{
   display: block;
 }
 
-.Address , .contact ,.number1{
+.Address,
+.contact,
+.number1 {
   overflow: hidden;
   font-weight: bolder;
-  background-color:white;
-  border:none;
+  background-color: white;
+  border: none;
   border-radius: 30px;
 }
 
@@ -132,45 +133,45 @@ button{
   right: 7px;
 }
 .round img {
-  margin-top:50px;
+  margin-top: 50px;
   height: 250px;
   width: 250px;
-  border:none;
+  border: none;
   border-radius: 30px;
 }
 
 .section-container {
-    text-align: center;
-    padding: 40px;
-    margin-top: 15px;
-    line-height: 22px;
-    font-size: 17px;
-    position: relative;
-    overflow: hidden;
-    word-break: break-word;
+  text-align: center;
+  padding: 40px;
+  margin-top: 15px;
+  line-height: 22px;
+  font-size: 17px;
+  position: relative;
+  overflow: hidden;
+  word-break: break-word;
 }
 .section-container::before {
-    content: ' ';
-    width: 45px;
-    height: 84px;
-    position: absolute;
-    left: 0;
-    top: 0;
+  content: ' ';
+  width: 45px;
+  height: 84px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 .section-container::after {
-    content: ' ';
-    width: 45px;
-    height: 84px;
-    position: absolute;
-    right: 0;
-    top: 0;
+  content: ' ';
+  width: 45px;
+  height: 84px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
-.form-group{
+.form-group {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.submit{
+.submit {
   background-color: skyblue;
 }
 #mySidenav a {
@@ -182,7 +183,7 @@ button{
   text-decoration: none;
   font-size: 25px;
   color: white;
-  text-align:center;
+  text-align: center;
   border-radius: 10px 0 10px 10px;
 }
 
@@ -191,7 +192,7 @@ button{
 }
 #fb {
   top: 200px;
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 #istgm {
   top: 260px;
@@ -203,11 +204,11 @@ button{
 }
 #wa {
   top: 380px;
-  background-color: #04AA6D;
+  background-color: #04aa6d;
 }
 #call {
   top: 440px;
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .responsive {
@@ -220,20 +221,18 @@ button{
     width: 49.99999%;
     margin: 6px 0;
   }
-  #logo
-  {
-    display :none;
+  #logo {
+    display: none;
   }
 }
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
   }
-  #logo
-  {
+  #logo {
     display: none;
   }
-  .number1{
+  .number1 {
     font-size: smaller;
   }
 }
@@ -252,7 +251,7 @@ div.gallery img {
   box-sizing: border-box;
 }
 .clearfix:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
